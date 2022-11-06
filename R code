@@ -5,7 +5,7 @@ library(twitteR)
 
 #------------------User tweets analysis for a perticular STRING--------------------------#
 
-#source('C:/ThesisProject/R_Script/twitter_auth.R) for twitter API
+#source('C:R_Script/twitter_auth.R) for twitter API
 
 #Tweet extraction using a string, i'm taking @narendramodi as string and tweets are in english only*
 User_Data <-searchTwitter("Karnataka Election",n=10000 )
